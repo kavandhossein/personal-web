@@ -16,22 +16,38 @@ export const Home = () => {
             </h2>
             <p className="text-blbg-black text-lg my-5">Frontend-developer</p>
             <div className="flex justify-center ">
-              <a className="custom-social-btn w-10 h-10 @4xl:w-12 @4xl:h-12" href="#">
+              <a
+                className="custom-social-btn w-10 h-10 @4xl:w-12 @4xl:h-12"
+                href="https://twitter.com/kavand_hossein"
+                target="_blank"
+              >
                 <i className="text-xl @4xl:text-2xl">
                   <AiOutlineTwitter />
                 </i>
               </a>
-              <a className="custom-social-btn w-10 h-10 @4xl:w-12 @4xl:h-12" href="#">
+              <a
+                className="custom-social-btn w-10 h-10 @4xl:w-12 @4xl:h-12"
+                href="https://www.instagram.com/kavandhosein/"
+                target="_blank"
+              >
                 <i className="text-xl @4xl:text-2xl">
                   <AiOutlineInstagram />
                 </i>
               </a>
-              <a className="custom-social-btn w-10 h-10 @4xl:w-12 @4xl:h-12" href="#">
+              <a
+                className="custom-social-btn w-10 h-10 @4xl:w-12 @4xl:h-12"
+                href="https://t.me/KavandHossein"
+                target="_blank"
+              >
                 <i className="text-xl @4xl:text-2xl">
                   <FaTelegramPlane />
                 </i>
               </a>
-              <a className="custom-social-btn w-10 h-10 @4xl:w-12 @4xl:h-12" href="#">
+              <a
+                className="custom-social-btn w-10 h-10 @4xl:w-12 @4xl:h-12"
+                href="https://www.linkedin.com/in/hosseinkavand/"
+                target="_blank"
+              >
                 <i className="text-xl @4xl:text-2xl">
                   <FaLinkedinIn />
                 </i>
@@ -44,13 +60,17 @@ export const Home = () => {
             <h4 className="font-bold text-2xl ">
               About <span className="text-red-500">Me</span>
             </h4>
-            <p className="my-2">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut
-              temporibus quis aspernatur animi iste ab, quisquam perspiciatis
-              delectus non odit natus? Nobis modi consequuntur libero totam
-              delectus quibusdam atque expedita.
+            <p className="my-2 pb-12">
+              A Front End Developer with +4 years of experiences in writing
+              hight-qualit code and delivering it to client. I am a self thought
+              developer, I started learning from scratch.
+              <br /><br/>I constantly update myself with new methods and challenge
+              myself with new stacks, I love sharing my knowledge with other
+              people. In last few years, I think more than 3 interns getting
+              into programming and building their careers. I also love working
+              with passionate and professional people to learn from them and
+              improve myself in any way possible.
             </p>
-           
           </div>
           <div className="ml-10 gap-10 flex">
             <div className="flex flex-col gap-2">
@@ -81,11 +101,15 @@ export const Home = () => {
             </div>
           </div>
         </div>
-          <div className="w-full pb-12 pt-4 px-12 text-center @4xl:text-left @4xl:pt-0  @4xl:-mt-8">
-          <button className="shadow active:scale-95 shadow-white border hover:shadow-lg transition-all mt-4 bg-black py-2 px-4 rounded-md">
-              DOWNLOAD RESUME
-            </button>
-          </div>
+        <div className="w-full pb-12 pt-4 px-12 text-center @4xl:text-left @4xl:pt-0 @4xl:-mt-8">
+          <a
+            href="/download/HosseinKavandCV.pdf"
+            download
+            className="shadow active:scale-95 shadow-white border  transition-all mt-4 bg-black py-2 px-4 rounded-md"
+          >
+            DOWNLOAD RESUME
+          </a>
+        </div>
       </section>
     </div>
   );

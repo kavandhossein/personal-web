@@ -1,0 +1,137 @@
+{
+  "experiences": [
+    {
+      "title": "Apsy Full-time",
+      "id": 1,
+      "startDate": "June 2022",
+      "endDate": "Dec 2022",
+      "type": "Front End Developr",
+      "summery": "At Apsy I was the front-end developmer. I worked on the several projects we had there.",
+      "description": "At Apsy I was the front-end developmer. I worked on the several projects we had there. \nI famelier to packages like react-query and firebase. \n\nIn Apsy we used Graphql and next.js. And to manage the state, and we used the redux and react-query library. \n\nIn Apsy our projects were from outside Iran and the subject of the projects was mostly about health and medicine, and this was a very good experience. I helped interns and junior developers in this company to find better solutions and fix their bugs. \n\nAnother challenge I had in this company was converting text and photos to pdf and sharing it in different ways. In one project i made some hooks like cart-shop, useTranslation useMediaUploader and ... These hooks are created based on any situation that is logical and necessary."
+    },
+    {
+      "title": "Almas Store · Full-time",
+      "id": 2,
+      "startDate": "Jan 2022",
+      "endDate": "May 2022",
+      "type": "Front End Developr",
+      "summery": "At Almas I was the front-end development leader. I worked on the admin and user side shop dashboard.",
+      "description": "At Almas I was the front-end development leader. I worked on the admin and user side shop dashboard,\n In Almas we used Graphql and next.js. And to manage the state, we used the redux library, which was a good experience."
+    },
+    {
+      "title": "Global Thought Club (GTC) · Part-time",
+      "id": 3,
+      "startDate": "Oct 2022",
+      "endDate": "May 2021",
+      "type": "Front End Developr",
+      "summery": "At GTC, I worked part-time on a major international project with a professional team, using Material Ui, Next.js, and Graphql.",
+      "description": "At GTC, I worked part-time on a major international project with a professional team, using Material Ui, Next.js, and Graphql. \n\nI also worked with Vue.js and Nuxt.js at this company."
+    },
+    {
+      "title": "ITSaaz · Full-time",
+      "id": 4,
+      "startDate": "Nov 2020",
+      "endDate": "Nov 2021",
+      "type": "Front End Developr",
+      "summery": "I was the Lead front-end developer in this company. when I join this company they were creating a new team for their authentication system using AI.",
+      "description": "I was the Lead front-end developer in this company. when I join this company they were creating a new team for their authentication system using AI, we started hiring 3 other developers as a part of Front end team. after that, we built some packages and libraries for PWA systems, then we start working on an admin system panel for the government offices around the country Iran. \n\nThe packages and the library that we built are available on NPM and are mostly used in banking and government system for authentication of the users.\n\nThe admin panel that we built was using Angular and took around 6 months to complete. My most challenging work on BehPardakht was developing packages and libraries that are now widely used in the company and for bank and government systems.\n\nThis company doesn't have a Remote friendly culture and because of that, I couldn’t continue my work with BehPardakht."
+    },
+    {
+      "title": "Farabi Brokerage Co (Farabi) · Part-time",
+      "id": 4,
+      "startDate": "May 2019",
+      "endDate": "Nov 2020",
+      "type": "Front End Developer",
+      "summery": "I built Sejam Online in Farabi, and I created and published my own package.So you can see and use this package in github and npm",
+      "description": "I built Sejam Online in Farabi, and I created and published my own package. \n\nSo you can see and use this package in github and npm: \nvideo-recorder-personal"
+    },
+    {
+      "title": "Ale Yasin · Full-time",
+      "id": 6,
+      "startDate": "Jun 2018",
+      "endDate": "May 2019",
+      "type": "Junior Front End Developer",
+      "summery": "I worked as Front-end Developer with technologies like HTML, CSS, Javascript, React.",
+      "description": "I worked as Front-end Developer with technologies like HTML, CSS, Javascript, React. \n\nAnd I gained more professional experience in 1 years"
+    }
+  ],
+  "mainSkills": [
+    {
+      "title": "JavaScript (ES5, ES6, ES7)",
+      "id":1,
+      "percentage": 98
+    },
+    {
+      "title": "Html & Css",
+      "id":2,
+      "percentage": 98
+    },
+    {
+      "title": "React JS (Redux, Next)",
+      "id":4,
+      "percentage": 95
+    },
+    {
+      "title": "TypeScript",
+      "id":3,
+      "percentage": 90
+    },
+    {
+      "title": "Bootstrap & Tailwind",
+      "id":5,
+      "percentage": 90
+    },
+    {
+      "title": "Sass & Less, PostCss",
+      "id":7,
+      "percentage": 80
+    },
+    {
+      "title": "Vue JS (Vuex, Nuxt)",
+      "id":6,
+      "percentage": 60
+    },
+    {
+      "title": "Angular",
+      "id":8,
+      "percentage": 50
+    }
+  ],
+  "otherSkills": [
+    {
+      "title": "Web APIs(REST Full API, GraphQl)",
+      "id":4,
+      "percentage": 98
+    },
+    {
+      "title": "Tools(Npm, Git & GitHub, Yarn, Gitlab, AWS)",
+      "id":2,
+      "percentage": 95
+    },
+    {
+      "title": "Scrum Tools(Trello, Jira, ClickUp, Azure)",
+      "id":3,
+      "percentage": 92
+    },
+    {
+      "title": "Design Systems (Material Ui, Ant Design, React Strap, Veutify)",
+      "id":1,
+      "percentage": 90
+    },
+    {
+      "title": "Frameworks(React-Query, Framer Motion, Formik, Firebase, React-pdf, Styled-Components)",
+      "id":6,
+      "percentage": 85
+    },
+    {
+      "title": "Databases(Postgresql, MongoDB, Redis, MySQL)",
+      "id":5,
+      "percentage": 70
+    },
+    {
+      "title": "Frameworks(Node.js, Express, Gatsby, Tree.js, Anime.js)",
+      "id":7,
+      "percentage": 65
+    }
+  ]
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import { Outlet } from 'react-router-dom'
 import { Footer } from '../Footer'
 import { Menu } from '../Menu'
+import Modals from './../../components/modals/modals'
 
 export const Main = () => {
   return (
@@ -11,6 +12,7 @@ export const Main = () => {
         <Outlet/>
       </div>
       <Footer/>
+      <Modals/>
     </div>
   )
 }
