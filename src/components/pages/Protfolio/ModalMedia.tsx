@@ -24,14 +24,14 @@ export const ModalMedia = ({ closeModal, variables }) => {
   return (
     <div className="max-w-7xl mx-auto py-4">
       <div className="justify-end flex text-xl">
-        <div className="flex gap-2">
+        {/* <div className="flex gap-2">
           <button className="bg-slate-700 px-3 py-3 pl-4 rounded-md flex ">
             <MdArrowBackIos />
           </button>
           <button className="bg-slate-700 px-3 py-3 pl-4 rounded-md flex ">
             <MdArrowForwardIos />
           </button>
-        </div>
+        </div> */}
         <button
           onClick={closeModal}
           className="bg-slate-700 px-3 py-3  rounded-md flex ml-3"
@@ -48,18 +48,17 @@ export const ModalMedia = ({ closeModal, variables }) => {
             slidesPerView={1}
             navigation
             speed={1000}
+            className="items-stretch h-100"
             pagination={{ clickable: true }}
             scrollbar={{ draggable: true }}
           >
             {item.description?.images?.map((image, i) => (
-              <SwiperSlide key={i}>
-                <div>
+              <SwiperSlide className="h-100 " key={i}>
                   <img
                     className="w-100 h-100 object-cover"
                     src={image}
                     alt="image"
                   />
-                </div>
               </SwiperSlide>
             ))}
           </Swiper>

@@ -1,92 +1,194 @@
 {
-    "portfolio":[
-        {
-            "id": 0,
-            "type": "photo",
-            "title": "Project 0",
-            "url": "/mock/mock.jpeg",
-            "description":null
+  "portfolio": [
+    {
+      "id": 0,
+      "type": "media",
+      "title": "Kenko",
+      "url": "/images/Kenko.png",
+      "description": {
+        "photo": "/images/Kenko.png",
+        "author": "Hossein Kavand",
+        "website": {
+          "link": "https://thankful-mud-03070d91e.1.azurestaticapps.net/",
+          "title": "Kenko.net"
         },
-        {
-            "id": 1,
-            "type": "video",
-            "title": "Project 1",
-            "url": "/videos/itpishkhan.mp4",
-            "description":{
-                "photo": "/mock/mock.jpeg"
-            }
+        "date": "September 20, 2022",
+        "detail": "",
+        "technologies": [
+          "Next.js",
+          "React Query",
+          "TypeScript",
+          "Redux",
+          "Firebase",
+          "Material UI"
+        ],
+        "images": [
+          "/images/kenko-1.png",
+          "/images/kenko-2.png",
+          "/images/kenko-3.png"
+        ],
+        "video": "/videos/Kenko.mp4"
+      }
+    },
+    {
+      "id": 1,
+      "type": "media",
+      "title": "TherExNow",
+      "url": "/images/TherExNow.png",
+      "description": {
+        "photo": "/images/TherExNow.png",
+        "author": "Hossein Kavand",
+        "website": {
+          "link": "https://happy-ocean-01bbee01e.1.azurestaticapps.net/",
+          "title": "TherExNow.net"
         },
-        {
-            "id": 2,
-            "type": "video",
-            "title": "Project 1",
-            "url": "/videos/itpishkhan.mp4",
-            "description":{
-                "photo": "/mock/mock.jpeg"
-            }
+        "date": "Novomber 17, 2022",
+        "detail": "",
+        "technologies": [
+          "Next.js",
+          "React Query",
+          "TypeScript",
+          "Redux",
+          "Firebase",
+          "Material UI"
+        ],
+        "images": [
+          "/images/TherExNow-1.png",
+          "/images/TherExNow-2.png",
+          "/images/TherExNow-3.png"
+        ],
+        "video": "/videos/TherExNow.mp4"
+      }
+    },
+    {
+      "id": 2,
+      "type": "media",
+      "title": "Almas",
+      "url": "/images/Almas.png",
+      "description": {
+        "photo": "/images/Almas.png",
+        "author": "Hossein Kavand",
+        "website": {
+          "link": "https://almasp-panel.darkube.app/",
+          "title": "Almas.app"
         },
-        {
-            "id": 3,
-            "type": "video",
-            "title": "Project 1",
-            "url": "/videos/itpishkhan.mp4",
-            "description":{
-                "photo": "/mock/mock.jpeg"
-            }
+        "date": "January 10, 2022",
+        "detail": "",
+        "technologies": [
+          "Next.js",
+          "GraphQl",
+          "TypeScript",
+          "Redux",
+          "Framer Motion",
+          "Apollo Client"
+        ],
+        "images": ["/images/Almas-1.png", "/images/Almas-3.png"],
+        "video": "/videos/Almas-video.mp4"
+      }
+    },
+    {
+      "id": 3,
+      "type": "media",
+      "title": "Hamrahe Hushmand",
+      "url": "/images/Hamrahehushmand.png",
+      "description": {
+        "photo": "/images/Hamrahehushmand.png",
+        "author": "Hossein Kavand",
+        "website": {
+          "link": "https://hamrahehushmand.ir/",
+          "title": "Hamrahehushmand.ir"
         },
-        {
-            "id": 4,
-            "type": "video",
-            "title": "Project 1",
-            "url": "/videos/itpishkhan.mp4",
-            "description":{
-                "photo": "/mock/mock.jpeg"
-            }
+        "date": "October 26, 2020",
+        "detail": "",
+        "technologies": [
+          "React.js",
+          "Formik",
+          "Tailwind",
+          "Redux",
+          "Ant Design",
+          "SCSS"
+        ],
+        "images": [
+          "/images/Hamrahehushmand-1.png",
+          "/images/Hamrahehushmand-2.png",
+          "/images/Hamrahehushmand-3.png",
+          "/images/Hamrahehushmand-4.png",
+          "/images/Hamrahehushmand-5.png",
+          "/images/Hamrahehushmand-6.png"
+        ],
+        "video": "/videos/hamrahehushmand.mp4"
+      }
+    },
+    {
+      "id": 4,
+      "type": "media",
+      "title": "ITPishkhan",
+      "url": "/images/ITPishkhan.png",
+      "description": {
+        "photo": "/images/ITPishkhan.png",
+        "author": "Hossein Kavand",
+        "website": {
+          "link": "https://itpishkhan.ir/",
+          "title": "ITPishkhan.ir"
         },
-        {
-            "id": 5,
-            "type": "video",
-            "title": "Project 1",
-            "url": "/videos/itpishkhan.mp4",
-            "description":{
-                "photo": "/mock/mock.jpeg"
-            }
+        "date": "October 26, 2021",
+        "detail": "",
+        "technologies": [
+          "React.js",
+          "Formik",
+          "Tailwind",
+          "Redux",
+          "Ant Design",
+          "SCSS"
+        ],
+        "images": [
+          "/images/ITPishkhan-1.png",
+          "/images/ITPishkhan-2.png",
+          "/images/ITPishkhan-3.png",
+          "/images/ITPishkhan-4.png",
+          "/images/ITPishkhan-5.png"
+        ],
+        "video": "/videos/itpishkhan.mp4"
+      }
+    },
+    {
+      "id": 5,
+      "type": "media",
+      "title": "Artist Factory",
+      "url": "/images/Artist.png",
+      "description": {
+        "photo": "/images/Artist.png",
+        "author": "Hossein Kavand",
+        "website": {
+          "link": "https://artistfactory.spiralteam.ir/",
+          "title": "Artistfactory.ir"
         },
-        {
-            "id": 6,
-            "type": "video",
-            "title": "Project 1",
-            "url": "/videos/itpishkhan.mp4",
-            "description":{
-                "photo": "/mock/mock.jpeg"
-            }
-        },
-        {
-            "id": 7,
-            "type": "media",
-            "title": "Project 2",
-            "url": "/mock/mock.jpeg",
-            "description":{
-                "author": "Hossein Kavand",
-                "website": {
-                    "link":"https://example.com",
-                    "title": "example.com"
-                },
-                "date": "September 22, 2017",
-                "detail":"Aliquam euismod aliquam massa, quis eleifend dui sodales vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-                "technologies": [
-                    "Html",
-                    "CSS",
-                    "JavaScript"
-                ],
-                "images":[
-                    "/mock/mock.jpeg",
-                    "/mock/mock.jpeg",
-                    "/mock/mock.jpeg"
-                ],
-                "photo":"/mock/mock.jpeg",
-                "video":"/videos/itpishkhan.mp4"
-            }
-        }
-    ]
+        "date": "October 26, 2021",
+        "detail": "",
+        "technologies": [
+          "Next.js",
+          "Formik",
+          "Tailwind",
+          "Redux",
+          "Ant Design",
+          "Less"
+        ],
+        "images": [
+          "/images/Artist-1.png",
+          "/images/Artist-2.png",
+          "/images/Artist-3.png"
+        ],
+        "video": "/videos/artist-factory.mp4"
+      }
+    },
+    {
+      "id": 6,
+      "type": "video",
+      "title": "Project 1",
+      "url": "/videos/itpishkhan.mp4",
+      "description": {
+        "photo": "/mock/mock.jpeg"
+      }
+    }
+  ]
 }
