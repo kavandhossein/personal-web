@@ -184,10 +184,10 @@
     {
       "id": 6,
       "type": "video",
-      "title": "Project 1",
-      "url": "/videos/itpishkhan.mp4",
+      "title": "Robat",
+      "url": "/videos/Robat.mp4",
       "description": {
-        "photo": "/mock/mock.jpeg"
+        "photo": "/images/Robat.png"
       }
     }
   ]
