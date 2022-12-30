@@ -4,8 +4,8 @@ import { FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
 
 export const Home = () => {
   return (
-    <div className="max-w-7xl mx-auto">
-      <section className="rounded-2xl overflow-hidden @container bg-black">
+    <div className="max-w-7xl mx-auto px-4">
+      <section className="rounded-2xl  overflow-hidden @container bg-black">
         <div className="bg-red-500 bg-section-top p-12 relative overflow-visible @xl:flex items-center">
           <div className="@xl:w-72 border ml-4 border-blbg-black bg-black shadow @xl:-mb-20 z-10">
             <img src="/images/person-1.jpg" alt="Hossein Kavand" />
@@ -55,12 +55,12 @@ export const Home = () => {
             </div>
           </div>
         </div>
-        <div className="p-12 pb-0 elative flex gap-12 pt-14">
-          <div className="w-1/2">
-            <h4 className="font-bold text-2xl ">
+        <div className="p-6 @md:p-12 @xl:pb-0 pb-0 elative flex-col bg-black flex @xl:flex-row gap-4 @md:gap-0 pt-14">
+          <div className="@xl:w-9/12">
+            <h4 className="font-bold text-2xl">
               About <span className="text-red-500">Me</span>
             </h4>
-            <p className="my-2 pb-12">
+            <p className="my-2 @xl:pb-12 @sm:text-left text-justify">
               A Front End Developer with +4 years of experiences in writing
               hight-qualit code and delivering it to client. I am a self thought
               developer, I started learning from scratch.
@@ -72,12 +72,12 @@ export const Home = () => {
               improve myself in any way possible.
             </p>
           </div>
-          <div className="ml-10 gap-10 flex">
+          <div className="@xl:ml-10 gap-10 flex">
             <div className="flex flex-col gap-2">
               <p>Age</p>
               <p>Residence</p>
               <p>Address</p>
-              <p>e-mail</p>
+              <p>E-mail</p>
               <p>Phone</p>
               <p>Freelance</p>
             </div>
@@ -101,11 +101,11 @@ export const Home = () => {
             </div>
           </div>
         </div>
-        <div className="w-full pb-12 pt-4 px-12 text-center @4xl:text-left @4xl:pt-0 @4xl:-mt-8">
+        <div className="w-full pb-12 pt-7 px-12 text-center @4xl:text-left @4xl:pt-0 @4xl:-mt-8">
           <a
             href="/download/HosseinKavandCV.pdf"
             download
-            className="shadow active:scale-95 shadow-white border  transition-all mt-4 bg-black py-2 px-4 rounded-md"
+            className="shadow active:scale-95 shadow-white border transition-all mt-4 bg-black py-2 px-4 rounded-md"
           >
             DOWNLOAD RESUME
           </a>

@@ -12,6 +12,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./index.css";
 import { ResumePage } from "./components/pages/Resume";
+import { AnimatePresence } from "framer-motion";
 
 const router = createBrowserRouter([
   {
@@ -41,8 +42,14 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Provider store={store}>
-      <RouterProvider router={router} />
-    </Provider>
+    <AnimatePresence
+      mode="wait"
+      initial={false}
+      onExitComplete={() => window.scrollTo(0, 0)}
+    >
+      <Provider store={store}>
+        <RouterProvider router={router} />
+      </Provider>
+    </AnimatePresence>
   </React.StrictMode>
 );
