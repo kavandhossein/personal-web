@@ -77,7 +77,9 @@ export const Menu = () => {
     setIsShow(!isShow);
   };
 
-  useEffect(() => {}, [location, window.innerWidth]);
+  useEffect(() => {
+    setIsShow(false)
+  }, [location]);
   useEffect(() => {
     const debouncedHandleResize = debounce(function handleResize() {
       setIsShow(false);
@@ -111,7 +113,7 @@ export const Menu = () => {
       >
         <div
           onClick={(e) => e.stopPropagation()}
-          className={`w-5/12 h-full bg-red-600`}
+          className={`@md:w-5/12 @sm:w-10/12 w-full h-full bg-red-600 shadow-[0px_10px_10px_0_rgba(0,0,0,20%)]`}
         >
           <ul className="flex mt-12 p-10 gap-5 flex-col">
             {items.map((item) => (

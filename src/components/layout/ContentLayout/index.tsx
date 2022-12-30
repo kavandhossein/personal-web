@@ -7,8 +7,8 @@ type Props = {
 
 export const ContentLayout: React.FC<Props> = ({ title, children }) => {
   return (
-    <div className="max-w-7xl mx-auto @container">
-      <section className="rounded-2xl px-4 overflow-hidden">
+    <div className="max-w-7xl mx-auto px-4 @container">
+      <section className="rounded-2xl overflow-hidden">
         <div className="bg-red-500 bg-section-top p-12 relative overflow-visible flex items-center">
           <div className="flex-1 h-full text-center">
             <h2 className="text-blbg-black font-bold text-5xl">{title}</h2>
