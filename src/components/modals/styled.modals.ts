@@ -37,7 +37,7 @@ export const MModalBodyContainer = styled.div(({ theme }) => ({
   boxShadow: "2px 2px 5px #ADADAD33",
   border: "0.5px solid #0b0b0b",
   borderRadius: "20px",
-  minWidth: 500,
+  // minWidth: 500,
   overflow: "auto",
   minHeight: 50,
   maxHeight: "95%",

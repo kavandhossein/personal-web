@@ -40,8 +40,8 @@ export const ModalMedia = ({ closeModal, variables }) => {
         </button>
       </div>
       <h2 className="text-center my-7 text-4xl">{item.title}</h2>
-      <div className="flex">
-        <div className="w-8/12">
+      <div className="@xl:flex">
+        <div className="@xl:w-8/12 w-full">
           <Swiper
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             spaceBetween={20}
@@ -54,11 +54,11 @@ export const ModalMedia = ({ closeModal, variables }) => {
           >
             {item.description?.images?.map((image, i) => (
               <SwiperSlide className="h-100 " key={i}>
-                  <img
-                    className="w-100 h-100 object-cover"
-                    src={image}
-                    alt="image"
-                  />
+                <img
+                  className="w-100 h-100 object-cover"
+                  src={image}
+                  alt="image"
+                />
               </SwiperSlide>
             ))}
           </Swiper>
@@ -84,7 +84,7 @@ export const ModalMedia = ({ closeModal, variables }) => {
             </div>
           )}
         </div>
-        <div className="w-4/12 pl-10">
+        <div className="@xl:w-4/12 @xl:pl-10 w-full">
           <h5 className="mb-3 text-2xl font-bold">Description</h5>
           <p className="flex items-center gap-2 my-2">
             <span className="text-red-500">

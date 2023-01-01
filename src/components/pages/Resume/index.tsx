@@ -11,14 +11,14 @@ export const ResumePage = () => {
   const [dataMock] = useState(dataJson.experiences);
   return (
     <ContentLayout title="Resume">
-      <div className="w-full">
+      <div className="w-full @container">
         <h3 className="text-2xl font-bold mb-3">Experience</h3>
-        <div className="grid grid-cols-2">
+        <div className="grid @xl:grid-cols-2">
           {dataMock?.map((item) => (
             <ExperienceItem item={item} key={item.id} />
           ))}
         </div>
-        <div className="grid grid-cols-2 mt-12">
+        <div className="grid @xl:grid-cols-2 mt-12">
           <div>
             <h3 className="text-2xl font-bold mb-3">
               Main <span className="text-red-500">Skills</span>
@@ -27,7 +27,7 @@ export const ResumePage = () => {
               <SkillsItem item={item} key={item.id} />
             ))}
           </div>
-          <div>
+          <div className="mt-5 @xl:mt-0">
             <h3 className="text-2xl font-bold mb-3">
               Other <span className="text-red-500">Skills</span>
             </h3>

@@ -78,7 +78,7 @@ export const Portfolio = () => {
               )
           )}
         </div>
-        <div className="grid grid-cols-3 gap-2 w-full">
+        <div className="grid @xl:grid-cols-2 @4xl:grid-cols-3 gap-2 w-full">
           {dataJson.map(
             (item) =>
               (categorySelected === CategoryTypes.ALL ||

@@ -14,7 +14,7 @@ export const ContentLayout: React.FC<Props> = ({ title, children }) => {
             <h2 className="text-blbg-black font-bold text-5xl">{title}</h2>
           </div>
         </div>
-        <div className="p-12 relative flex bg-black  pt-14">{children}</div>
+        <div className="@xl:p-12 p-6 relative flex bg-black  pt-14">{children}</div>
       </section>
     </div>
   );
