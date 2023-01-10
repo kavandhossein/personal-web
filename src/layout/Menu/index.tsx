@@ -78,12 +78,19 @@ export const Menu = () => {
   };
 
   useEffect(() => {
-    setIsShow(false)
+    if (isShow) {
+      setIsShow(false);
+    }
   }, [location]);
   useEffect(() => {
+    // const debouncedHandleResize = () => {
+    //   setIsShow(false);
+    // };
     const debouncedHandleResize = debounce(function handleResize() {
-      setIsShow(false);
-    }, 1000);
+      if (isShow) {
+        setIsShow(false);
+      }
+    }, 100);
 
     window.addEventListener("resize", debouncedHandleResize);
 

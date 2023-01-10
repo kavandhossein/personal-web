@@ -1,12 +1,21 @@
+import styled from "@emotion/styled";
 import React from "react";
 import { useDispatch } from "react-redux";
 import { TypeExperiences } from ".";
 import { newModal } from "../../../redux/actions";
+import { MModalBodyContainer } from "../../modals/styled.modals";
 import { ModalDetail } from "./ModalDetail";
 
 interface Props {
   item: TypeExperiences[number];
 }
+
+export const ContainerModal = styled(MModalBodyContainer)({
+  width: "95%",
+  // height: "100%",
+  // maxHeight: "100%",
+  // borderRadius: 0,
+});
 
 export const ExperienceItem: React.FC<Props> = ({ item }) => {
   const dispatch = useDispatch();
@@ -15,11 +24,12 @@ export const ExperienceItem: React.FC<Props> = ({ item }) => {
       newModal({
         Body: ModalDetail,
         id: "modal-resume-detail",
+        // Container: ContainerModal,
         top: 0,
-        canClose:true,
-        closeButton:true,
-        variables:{item},
-        title:item.title
+        canClose: true,
+        closeButton: true,
+        variables: { item },
+        title: item.title,
       })
     );
   };

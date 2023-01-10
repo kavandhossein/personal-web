@@ -61,7 +61,7 @@ function ModalComponent({
         id="modal-blur-component"
         onClick={handleClickoOutside}
       >
-        <Container className="@xl:min-w-min min-w-0">
+        <Container className="@xl:min-w-min @xl:w-fit w-11/12 min-w-0">
           {(title || closeButton) && (
             <ModalTitleBar>
               <ModalTitle>{title ?? ""}</ModalTitle>
